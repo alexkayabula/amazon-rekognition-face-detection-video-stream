@@ -2,8 +2,8 @@ import boto3
 from botocore.exceptions import ClientError
 
 def send_email(SUBJECT):
-    SENDER = "your@email.com" # must be verified in AWS SES Email
-    RECIPIENT = "your@email.com" # must be verified in AWS SES Email
+    SENDER = "aws.study.work@gmail.com" # must be verified in AWS SES Email
+    RECIPIENT = "aws.study.work@gmail.com" # must be verified in AWS SES Email
 
     # The email body for recipients with non-HTML email clients.
     BODY_TEXT = ("Face Recognition Notification\r\n"

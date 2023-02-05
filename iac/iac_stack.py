@@ -27,6 +27,7 @@ class IacStack(Stack):
         super().__init__(scope, construct_id, **kwargs)
         
         kvs = kinesisvideo.CfnStream(self, "MyVideoStream",
+            name="MyVideoStream",
             data_retention_in_hours=24
         )
         
