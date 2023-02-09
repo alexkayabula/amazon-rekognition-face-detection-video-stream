@@ -37,3 +37,5 @@ You can also run this with the label and latest tag:
 #### Run the gstreamer sample app with the requisite arguments
 `AWS_ACCESS_KEY_ID=<AWS_ACCESS_KEY_ID> AWS_DEFAULT_REGION=<AWS_DEFAULT_REGION> AWS_SECRET_ACCESS_KEY=<AWS_SECRET_ACCESS_KEY> ./kvs_gstreamer_sample <STREAM_NAME> <RTSP_URL>` 
 
+You can use this RSTP link for testing.
+`rtsp://demo:demo@ipvmdemo.dyndns.org:5541/onvif-media/media.amp?profile=profile_1_h264&sessiontimeout=60&streamtype=unicast`
